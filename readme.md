@@ -284,8 +284,8 @@ Reset your server and go to [localhost:3000/thank?name=jane](localhost:3000/than
   // server.js
   // Calculator
   app.get('/add', function(request, response){
-    var x = request.query.x;
-    var y = request.query.y;
+    var x = +request.query.x;
+    var y = +request.query.y;
     var total = x+y;
     response.send( total + " is the result");
   });
