@@ -321,10 +321,10 @@ Of course, you might combine both in some cases: `/posts/33/comments?limit=50`
 
 ``` javascript
 var tacos = [
-                "Soft Taco",
-                "Crunchy Taco",
-                "Super Taco"
-            ];
+  "Soft Taco",
+  "Crunchy Taco",
+  "Super Taco"
+];
 ```
 
 1. We'd like a route that will allow you to access a single taco by its index in the array. For example, sending index 2 would trigger a server response with the text "Super Taco".  What kind of parameters would be most appropriate for this route, query parameters or url parameters?
