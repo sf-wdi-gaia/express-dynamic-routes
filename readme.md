@@ -350,7 +350,7 @@ app.get('/api/tacos/:id', function(request, response){
 </details>
 
 
-### POST
+### Creating Data with POST
 
 Up until now, we've used the HTTP method `GET` to _retrieve_ data from web APIs - either third-party APIs or a few very simple ones we've created.  
 
