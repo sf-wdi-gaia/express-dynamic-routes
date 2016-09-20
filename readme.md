@@ -10,7 +10,7 @@ Location: SF
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-In order to send data between the client and the server we must consider the differnet types of parameters that can be used. Similarly an application's routes should follow specific conventions to adhere to certain design best practices.
+A solid understanding of routes and parameters is fundamental to recieving both the client's input and requests for data in an organized and conventional manner.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
