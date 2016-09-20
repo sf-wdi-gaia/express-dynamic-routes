@@ -453,7 +453,7 @@ To add the `body-parser` middleware to your app:
 3. Include the middleware in the app with `app.use`. (The url encoding is configuration.)
 
   ```js
-  app.use(bodyParser.urlencoded({ extended: false }));
+  app.use(bodyParser.urlencoded({ extended: true }));
   ```
 
 #### Using `body-parser`
