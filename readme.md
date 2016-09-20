@@ -54,7 +54,6 @@ Let's start a simple **Express** application.
 
   ```bash
   npm install --save express
-  atom .
   ```
 
   The folder structure will be:
