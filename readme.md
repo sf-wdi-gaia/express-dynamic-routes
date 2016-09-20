@@ -10,7 +10,7 @@ Location: SF
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Hard-coded routes like `/about`, `/home`, and `/contact` will only take a website so far.  Two great strategies save us from hard-coding every valid URL for a site. Parameterized routes like `/users/:name` help give a website the flexibility to grow as data is added.  A route that can handle query strings can read in extra data sent by the client, like `/search?q=epiphany`, and respond appropriately.  These strategies will also help keep code DRY.
+In order to send data between the client and the server we must consider the differnet types of parameters that can be used. Similarly an application's routes should follow specific conventions to adhere to certain design best practices.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
